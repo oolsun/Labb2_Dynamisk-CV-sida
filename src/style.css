@@ -253,6 +253,14 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   padding: 1%;
+  transition: .3s ease-in;
+
+  &:hover {
+    background-color: #d596ff;
+    box-shadow: 0 0 5px #d596ff, 0 0 25px #d596ff, 0 0 50px #d596ff, 0 0 200px #d596ff, 0 0 350px #d596ff;
+    z-index: 10;
+    border-style: none;
+  }
 }
 
 .error-message {
