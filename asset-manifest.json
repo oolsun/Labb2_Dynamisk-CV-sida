@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/labb2/static/css/main.359cd5de.css",
-    "main.js": "/labb2/static/js/main.f1a27d88.js",
-    "static/js/592.0012e4fc.chunk.js": "/labb2/static/js/592.0012e4fc.chunk.js",
-    "static/media/rickrolling.mp3": "/labb2/static/media/rickrolling.caebca3dd2a39acc9333.mp3",
-    "static/media/olov.jpg": "/labb2/static/media/olov.e5d9f09df22a201086ab.jpg",
-    "static/media/outlook.png": "/labb2/static/media/outlook.0c7818a0ba6db381fce5.png",
-    "static/media/github2.png": "/labb2/static/media/github2.69ffd9cd5a846c976177.png",
-    "static/media/blackpurple_background.jpg": "/labb2/static/media/blackpurple_background.573bd08b8e52e7ea6a85.jpg",
-    "index.html": "/labb2/index.html",
-    "main.359cd5de.css.map": "/labb2/static/css/main.359cd5de.css.map",
-    "main.f1a27d88.js.map": "/labb2/static/js/main.f1a27d88.js.map",
-    "592.0012e4fc.chunk.js.map": "/labb2/static/js/592.0012e4fc.chunk.js.map"
+    "main.css": "/Labb2_Dynamisk-CV-sida/static/css/main.d66e7c4f.css",
+    "main.js": "/Labb2_Dynamisk-CV-sida/static/js/main.be6e991a.js",
+    "static/js/592.0012e4fc.chunk.js": "/Labb2_Dynamisk-CV-sida/static/js/592.0012e4fc.chunk.js",
+    "static/media/rickrolling.mp3": "/Labb2_Dynamisk-CV-sida/static/media/rickrolling.caebca3dd2a39acc9333.mp3",
+    "static/media/olov.jpg": "/Labb2_Dynamisk-CV-sida/static/media/olov.e5d9f09df22a201086ab.jpg",
+    "static/media/outlook.png": "/Labb2_Dynamisk-CV-sida/static/media/outlook.0c7818a0ba6db381fce5.png",
+    "static/media/github2.png": "/Labb2_Dynamisk-CV-sida/static/media/github2.69ffd9cd5a846c976177.png",
+    "static/media/blackpurple_background.jpg": "/Labb2_Dynamisk-CV-sida/static/media/blackpurple_background.573bd08b8e52e7ea6a85.jpg",
+    "index.html": "/Labb2_Dynamisk-CV-sida/index.html",
+    "main.d66e7c4f.css.map": "/Labb2_Dynamisk-CV-sida/static/css/main.d66e7c4f.css.map",
+    "main.be6e991a.js.map": "/Labb2_Dynamisk-CV-sida/static/js/main.be6e991a.js.map",
+    "592.0012e4fc.chunk.js.map": "/Labb2_Dynamisk-CV-sida/static/js/592.0012e4fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.359cd5de.css",
-    "static/js/main.f1a27d88.js"
+    "static/css/main.d66e7c4f.css",
+    "static/js/main.be6e991a.js"
   ]
 }
