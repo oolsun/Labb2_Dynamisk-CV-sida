@@ -1,0 +1,101 @@
+{
+  "Arbetslivserfarenhet": [
+    {
+      "id": 1,
+      "datum": "2021-04-24 - 2022-09-04",
+      "yrke": "Pappaledig",
+      "arbetsgivare": " ",
+      "ort": " "
+    },
+    {
+      "id": 2,
+      "datum": "2020-12-01 - 2021-04-23",
+      "yrke": "Fälttekniker/Tryckskydd",
+      "arbetsgivare": "Transtema Networks",
+      "ort": "Sundsvall"
+    },
+    {
+      "id": 3,
+      "datum": "2019-01-08 - 2020-11-01",
+      "yrke": "Fibertekniker",
+      "arbetsgivare": "Eltel Networks",
+      "ort": "Uppsala"
+    },
+    {
+      "id": 4,
+      "datum": "2018-04-03 - 2018-12-21",
+      "yrke": "Fibertekniker",
+      "arbetsgivare": "Sandström Nätentreprenad AB",
+      "ort": "Stockholm"
+    },
+    {
+      "id": 5,
+      "datum": "2012 - 2017",
+      "yrke": "Elevhandledare",
+      "arbetsgivare": "Stenhamreskolan",
+      "ort": "Ljusdal"
+    },
+    {
+      "id": 6,
+      "datum": "2009 - 2012",
+      "yrke": "Dator- och skrivarsupport",
+      "arbetsgivare": "Teleperformance",
+      "ort": "Ljusdal"
+    }
+  ],
+
+  "Utbildningar": [
+    {
+      "id": 1,
+      "datum": "2017 - 2018",
+      "utbildning": "Telekomtekniker",
+      "skola": "Edugrade",
+      "ort": "Hudiksvall"
+    },
+    {
+      "id": 2,
+      "datum": "2005 - 2008",
+      "utbildning": "Samhällsvetenskapliga programmet inriktning IT",
+      "skola": "Slottegymnasiet",
+      "ort": "Ljusdal"
+    }
+  ],
+
+  "Kurser": [
+    {
+      "id": 1,
+      "kurs": "Stolpklättrarutbildning och nedtagning av skadad i stolpe"
+    },
+    {
+      "id": 2,
+      "kurs": "Incert Terminering - Fiber"
+    },
+    {
+      "id": 3,
+      "kurs": "Incert Robust Fiber - Anläggning"
+    },
+    {
+      "id": 4,
+      "kurs": "Arbete på väg nivå 1, 2 & 3A"
+    },
+    {
+      "id": 5,
+      "kurs": "Heta arbeten"
+    }
+  ],
+
+  "Övrigt": [
+    {
+      "id": 1,
+      "kunskap": "Mycket god datorvana"
+    },
+    {
+      "id": 2,
+      "kunskap": "Körkort behörighet B"
+    },
+    {
+      "id": 3,
+      "kunskap": "Behärskar svenska och engelska väl i både tal och skrift"
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+/* Fonts from google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* General */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(/src/images/blackpurple_background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 98vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.textbox {
+  background-color: rgba(245, 245, 245, 0.5);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  font-size: x-large;
+  margin-bottom: 10px;
+}
+
+.titlebox {
+  background-color: rgba(245, 245, 245, 0.5);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.site-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(245, 245, 245, 0.5);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(245, 245, 245, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  margin: 150px auto;
+  padding: 20px;
+  background: lightgray;
+  border: 1px solid #666;
+  max-width: 700px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.close-modal {
+  text-align: center;
+}
+
+/* Menu */
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  display: flex;
+  background-color: rgba(245, 245, 245, 0.5);
+  flex-wrap: wrap;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 10px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  justify-content: center;
+}
+.nav-link {
+  text-decoration: none;
+  margin-right: 15px;
+  &:hover,
+  &:focus {
+    color: rgb(117, 85, 117);
+  }
+}
+
+/* Index */
+
+.imagebox {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex: auto;
+  padding: 1%;
+}
+
+.selfportrait {
+  width: 100%;
+}
+
+/* CV */
+
+.container-box {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  float: left;
+  font-size: larger;
+  padding: 0.5%;
+  width: 49%;
+}
+
+.flip-box {
+  background: transparent;
+  cursor: default;
+  height: 500px;
+  width: 100%;
+  padding-top: 1%;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0s;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flip-box-back p {
+  font-size: medium;
+}
+
+.flip-box-front {
+  background-color: rgba(245, 245, 245, 0.5);
+  border-radius: 10px;
+}
+
+.flip-box-back {
+  background-color: rgba(245, 245, 245, 0.5);
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 100%;
+  }
+
+  .flip-box {
+    height: 400px;
+  }
+
+  .flip-box-back p {
+    font-size: small;
+  }
+
+  .textbox {
+    width: 98%;
+  }
+
+  .nameinput,
+  .mailinput {
+    width: 99%;
+  }
+}
+
+/* Portfolio */
+
+.repo-links {
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.repo-buttons {
+  list-style: none;
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.5);
+  width: 100%;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+}
+
+.error-message {
+  background-color: rgba(245, 245, 245, 0.5);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  flex-wrap: wrap;
+  flex: auto;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.loading-screen {
+  background-color: rgba(245, 245, 245, 0.5);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  flex-wrap: wrap;
+  flex: auto;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+.loader {
+  width: 60px;
+  aspect-ratio: 1;
+  display: flex;
+  animation: l10-0 2s infinite steps(1);
+  margin-left: auto;
+  margin-right: auto;
+}
+.loader::before,
+.loader::after {
+  content: "";
+  flex: 1;
+  animation: 
+    l10-1 1s infinite linear alternate,
+    l10-2 2s infinite steps(1) -.5s;
+}
+.loader::after {
+  --s:-1,-1;
+}
+@keyframes l10-0 {
+  0%  {transform: scaleX(1)  rotate(0deg)}
+  50% {transform: scaleX(-1) rotate(-90deg)}
+}
+@keyframes l10-1 {
+  0%,
+  5%   {transform:scale(var(--s,1)) translate(0px)   perspective(150px) rotateY(0deg) }
+  33%  {transform:scale(var(--s,1)) translate(-10px) perspective(150px) rotateX(0deg) }
+  66%  {transform:scale(var(--s,1)) translate(-10px) perspective(150px) rotateX(-180deg)}
+  95%,
+  100% {transform:scale(var(--s,1)) translate(0px)   perspective(150px) rotateX(-180deg)}
+}
+@keyframes l10-2 {
+  0%  {background:#634b82;border-radius: 0}
+  50% {background:#b02592;border-radius: 100px 0 0 100px}
+}
+
+
+/* Contact */
+
+.btnlinks {
+  position: relative;
+  transition: transform 0.3s;
+  width: 31%;
+}
+
+.btnlinks:hover {
+  transform: scale(1.2);
+}
+
+.contactlinks {
+  justify-content: space-between;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  font-family: "Poppins", sans-serif;
+  height: 200px;
+}
+
+.nameinput,
+.mailinput {
+  float: left;
+  width: 49%;
+  padding: 0.5%;
+}
+
+.textinput {
+  padding: 0.5%;
+}
+
+input[type="submit"] {
+  background-color: rgb(117, 85, 117);
+  font-size: large;
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .nameinput,
+  .mailinput {
+    float: left;
+    width: 99%;
+  }
+}
